@@ -43,7 +43,7 @@ ui <- fluidPage(
                                "North America" = "North America", "South Asia" = "South Asia", 
                                "Sub-Saharan Africa" = "Sub-Saharan Africa"), 
                 selected = 1),
-    sliderInput("size", "Population scaling", 1, 10, 5, ticks = FALSE),
+    sliderInput("size", "Population Scale", 1, 10, 5, ticks = FALSE),
     sliderInput("year", "Year", 1960, 2014, 1983, sep = "", ticks = FALSE, animate = animationOptions(interval = 100))
   )
 )
